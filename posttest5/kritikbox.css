@@ -1,0 +1,26 @@
+.kritik-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+    }
+
+.kritik-box {
+    text-align: start;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #8EC5FC;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 640px) {
+    .kritik-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+}
